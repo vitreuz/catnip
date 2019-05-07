@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"code.cloudfoundry.org/clock"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/router"
+	"github.com/cloudfoundry/catnip/router"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

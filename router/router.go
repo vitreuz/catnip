@@ -7,13 +7,13 @@ import (
 	"code.cloudfoundry.org/clock"
 	"github.com/gorilla/mux"
 
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/env"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/health"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/linux"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/log"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/session"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/signal"
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/text"
+	"github.com/cloudfoundry/catnip/env"
+	"github.com/cloudfoundry/catnip/health"
+	"github.com/cloudfoundry/catnip/linux"
+	"github.com/cloudfoundry/catnip/log"
+	"github.com/cloudfoundry/catnip/session"
+	"github.com/cloudfoundry/catnip/signal"
+	"github.com/cloudfoundry/catnip/text"
 )
 
 func New(out io.Writer, clock clock.Clock) *mux.Router {

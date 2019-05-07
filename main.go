@@ -8,7 +8,7 @@ import (
 
 	"code.cloudfoundry.org/clock"
 
-	"github.com/cloudfoundry/cf-acceptance-tests/assets/catnip/router"
+	"github.com/cloudfoundry/catnip/router"
 )
 
 func main() {
